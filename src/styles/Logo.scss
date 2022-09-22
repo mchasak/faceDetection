@@ -1,0 +1,19 @@
+.logo {
+    position: absolute;
+    top: 30px;
+    border: 1px solid #3E3D3E;
+    border-radius: 15px;
+    box-shadow: 1px 2px 10px #3E3D3E;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(89deg, #FF5EDF 0%, #04C8DE 100%);
+    &__img {
+        color: white;
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+    }
+}

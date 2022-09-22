@@ -1,0 +1,10 @@
+.App {
+    padding: 50px 30px;
+    text-align: center;
+    &__wrapper {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
